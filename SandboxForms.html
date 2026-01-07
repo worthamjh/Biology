@@ -112,6 +112,8 @@
                             <label for="hog">Absolute Hog</label>
                             <button>Submit</button>
                         </form>
+                    </td>
+                    <td>
                         <ul>
                             <ls>Value tag is needed to indicate what happens when that selection is made.</ls>
                         </ul>
@@ -138,9 +140,32 @@
                             <Button>Submit</Button>
                         </form>
                     </td>
+                    <td>
+                        <ul>
+                            <ls>Not sure how the action"" functions exactly.</ls>
+                        </ul>
+                    </td>
                 </tr>
             </tbody>
         </table>
+
+        <p>
+        <h3>Range</h3>
+        <form action="/birds">Birds
+            <label for="confidence">Confidence</label>
+            <input type="range" id="confidence" min="1" max="5" value=3 name="confidence">
+            <button type="submit">Submit</button>
+        </form>
+        Value is the starting value that the range is on when loaded
+        </p>
+    </section>
+    <section>
+        <h2>Text Area Element</h2>
+        Makes a text box for user input.
+        <p>
+            <label for="">How confident do you feel?</label>
+            <textarea name="confidence" id="confidence" rows="3" cols="50" placeholder="Balls"></textarea>
+        </p>
     </section>
 </body>
 
