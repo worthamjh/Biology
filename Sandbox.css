@@ -1,26 +1,38 @@
 h1 {
             color: red;
+        text-decoration: underline wavy;
+        font-family: Arial, Helvetica, sans-serif;
         }
 
-        h2 {
-            color: orange;
-        }
-
-        h3 {
+h2 {
+            color: #e38424;
+       text-decoration:underline;
+    font-family: Arial, Helvetica, sans-serif;}
+h3 {
             color: gold;
         }
-
-        h4 {
+h4 {
             color: green;
         }
-
-        h5 {
+h5 {
             color: blue;
         }
-
-        h6 {
+h6 {
             color: purple;
         }
-        button {
+button {
             color: pink;
         }
+header{
+    
+}
+body { color: #4724e3;
+background-color: palegoldenrod;
+text-decoration-style:underline;
+}
+section {color: #e38424;
+    font-weight: 400;
+}
+footer{
+
+}
