@@ -1,6 +1,6 @@
 h1 {
             color: red;
-        text-decoration: underline wavy;
+        text-decoration: underline wavy; color: #4724e3;
         font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -23,16 +23,10 @@ h6 {
 button {
             color: pink;
         }
-header{
-    
-}
 body { color: #4724e3;
 background-color: palegoldenrod;
 text-decoration-style:underline;
 }
 section {color: #e38424;
     font-weight: 400;
-}
-footer{
-
 }
