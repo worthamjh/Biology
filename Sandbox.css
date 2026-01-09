@@ -30,3 +30,14 @@ text-decoration-style:underline;
 section {color: #e38424;
     font-weight: 400;
 }
+button { 
+    font-size: 30px;
+    background-color: #f77f00;
+}
+.unitnav {background-color: #f77f00;
+color: azure;
+}
+li{color: blue;}
+.class{color: gray;}
+#clear{color: white;
+background-color: red;}
