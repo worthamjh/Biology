@@ -1,1 +1,12 @@
+html{
+    background-color: black;
+}
+nav{
+    background-color: orange;
+}
+section{color: white;}
 footer{background-color: black;}
+.navlink{
+    color: white;
+    text-decoration: none;
+}
