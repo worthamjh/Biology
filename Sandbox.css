@@ -1,25 +1,36 @@
 
 
-.unitnav a{color:#ee9b00;
-text-decoration: none;
+.unitnav a{
+    background-color: #ee9b00;
+    color:white; 
+    text-decoration: none;}
+
+.unitnav li a:hover {color: #000000;
+background-color: #ee9b00;
+border-color: #000000;
+border-width: 1px;
+border-style: dashed;}
+
+.lg-section{
+    color:#ee9b00;
+    text-decoration: black dotted; 
+    background-color: #fff7e0;
+    background-image:url("https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Images/UcityLearningGoalsBackground%20(7).jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 16 / 9;
 }
 
-.unitnav a:hover {color: #000000;
-background-color: #ee9b00;}
-
-.learninggoals{color:#ee9b00;text-decoration: black dotted;
+.lg-table{color: green; 
+width: 800px;
 }
+
+.lg-label{text-decoration: none;
+color: green;
+font-family: cursive;
+font-size: 24px;
+}
+
 input:checked + label{ color: red;
 }
-.learninggoals::selection{background-color: green;}
-
-section ul {background-color: ;}
-
-#Iwillbeabletoevaluatetheconceptofkinselectionandaltruism {color:#582f0e ;
-    font-weight: bold;}
-body{background-color: #000000;}
-.sectionlearninggoals{background-image:url("https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Images/UcityLearningGoalsBackground%20(7).jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-aspect-ratio: 16 / 9;}
