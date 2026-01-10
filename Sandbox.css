@@ -7,8 +7,19 @@ text-decoration: none;
 .unitnav a:hover {color: #000000;
 background-color: #ee9b00;}
 
-.learninggoals{color:#ee9b00;
+.learninggoals{color:#ee9b00;text-decoration: black dotted;
 }
 input:checked + label{ color: red;
 }
 .learninggoals::selection{background-color: green;}
+
+section ul {background-color: ;}
+
+#Iwillbeabletoevaluatetheconceptofkinselectionandaltruism {color:#582f0e ;
+    font-weight: bold;}
+body{background-color: #000000;}
+.sectionlearninggoals{background-image:url("https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Images/UcityLearningGoalsBackground%20(7).jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+aspect-ratio: 16 / 9;}
