@@ -1,0 +1,83 @@
+/* base list reset */
+.menu__list, .submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* top-level styling */
+.menu__list {
+  display: flex;              /* horizontal menu; change to column for vertical nav */
+  gap: 1rem;
+  align-items: center;
+}
+
+/* top-level items */
+.menu__list > li {
+  position: relative;         /* for submenu absolute positioning */
+}
+
+/* top-level links */
+.menu__link, .menu__list > li > a {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  color: #111;
+  text-decoration: none;
+}
+
+/* submenu box */
+.submenu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.4rem);
+  min-width: 12rem;
+  background: white;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 6px;
+  overflow: hidden;
+  transform-origin: top center;
+  opacity: 0;
+  transform: translateY(-6px) scale(0.98);
+  pointer-events: none;
+  transition: opacity 160ms ease, transform 160ms ease;
+  z-index: 1000;
+}
+
+/* submenu items */
+.submenu li a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #222;
+  text-decoration: none;
+}
+
+/* hover/focus-within - show submenu (CSS-only) */
+.has-submenu:hover > .submenu,
+.has-submenu:focus-within > .submenu {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+/* when JS toggles an 'open' class */
+.has-submenu.open > .submenu {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+/* visual focus */
+.menu__link:focus,
+.menu__list > li > a:focus,
+.submenu li a:focus {
+  outline: 3px solid rgba(21,156,228,0.25);
+  outline-offset: 2px;
+}
+
+/* small screens: stack the menu */
+@media (max-width: 700px) {
+  .menu__list { flex-direction: column; gap: 0; }
+  .submenu { position: static; transform: none; opacity: 1; pointer-events: auto; display: none; }
+  .has-submenu.open > .submenu { display: block; }
+}
