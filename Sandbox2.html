@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="menu" aria-label="Main menu">
+        <ul class="menu__list">
+            <li><a href="/home">Home</a></li>
+
+            <li class="has-submenu">
+                <a href="#" class="menu__link" aria-haspopup="true" aria-expanded="false">Products</a>
+                <ul class="submenu">
+                    <li><a href="/products/a">Product A</a></li>
+                    <li><a href="/products/b">Product B</a></li>
+                    <li><a href="/products/c">Product C</a></li>
+                </ul>
+            </li>
+
+            <li class="has-submenu">
+                <a href="#" class="menu__link" aria-haspopup="true" aria-expanded="false">Resources</a>
+                <ul class="submenu">
+                    <li><a href="/docs">Docs</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/guides">Guides</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
