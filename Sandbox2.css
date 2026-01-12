@@ -1,4 +1,4 @@
-.navu > li{
+/* .navu > li{
   height: 100px; 
   width: 800px;
   background-color: blueviolet;
@@ -15,4 +15,47 @@
   border: 5px solid rgb(245, 0, 0);
   display: inline-block;
   text-decoration: none;
+} */
+/* hr{
+  margin: 100px;
+}
+section{
+background-color: blue;
+height: 500px;
+width:500px
+}
+div{
+  background-color: #8ecae6;
+  width: 50%;
+  height: 50%;
+  font-size: 50px;
+}
+h2{
+  color: #d62828 ;
+  font-size: 40px;
+  border: 10px solid black;
+  line-height: 200%
+}
+h3{
+  color: #219ebc;
+  font-size: 50px;
+  border: 3px dotted black;
+  margin-bottom: 2em;
+}
+button{
+  font-size:  1em;
+  padding: 0 1em;
+  background-color: peachpuff;
+  border: 2px solid black;
+  border-radius: 0.5em;
+} */
+html{
+  font-size: 18px;
+ }
+ ul{
+  font-size: 1rem;
+  list-style: none;
+ }
+.lessonlink{
+  font-size: 0.75rem;
 }
