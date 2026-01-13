@@ -21,48 +21,36 @@ body{
   color: #111;
   text-decoration: none;
 }
-.lg-section{                      /* keep */
-    color:#ee9b00;
-    text-decoration: black dotted; 
-    background-color: #fff7e0;
-    background-image:url("https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Images/UcityLearningGoalsBackground%20(7).jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    aspect-ratio: 16 / 9;
-    position: relative;
-}
-.lg-legend{
-  font-family: cursive;
-  text-align: center;
-  padding: 10px;
-}
-.lg-fieldset{color: green;   /* keep */
-  border: 0;
-width: 700px;
-position: relative;
-left: 1125px;
-bottom: 200px;
-background-color: transparent;
-}
-.lg-fieldset .lg-goal{
-  display: block;
-}
-.lg-goal{
-  text-decoration: none; /* keep */
-color: green;
-font-family: cursive;
-font-size: 24px;
-padding: 10px;
-}
-.slides{                        /* keep */
-  margin: 0;
+
+
+
+/* h5{
+  width: 100px;
   position: relative;
-  left: 450px;
-  top: 350px;
+  top: 100px;
+  margin: 20px auto;
+  rotate: 45deg;
+  text-align: center;
+  border-color: #003049;
+  background-color: #d62828 ;
+  border-width: 3px;
+  border-style: solid;
+  
 }
 
-footer button img{
-    width: 200px;
-    height: 200px;
+h5:nth-of-type(1){
+  color: #f77f00;
+  rotate: 90deg;
+  position: relative;
+  background-color: #eae2b7;
+
+}
+h5:nth-of-type(2n){
+  scale: 1;
+  transform: skew(30deg);
+} */
+
+h2{
+  display: flex;
+  align-items: center;
 }
