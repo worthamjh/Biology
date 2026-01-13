@@ -35,6 +35,7 @@ body{
 .lg-legend{
   font-family: cursive;
   text-align: center;
+  padding: 10px;
 }
 .lg-fieldset{color: green;   /* keep */
   border: 0;
