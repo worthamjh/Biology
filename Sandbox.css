@@ -21,7 +21,7 @@ body{
   color: #111;
   text-decoration: none;
 }
-.lg-section{
+.lg-section{                      /* keep */
     color:#ee9b00;
     text-decoration: black dotted; 
     background-color: #fff7e0;
@@ -30,20 +30,37 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     aspect-ratio: 16 / 9;
+    position: relative;
 }
-
-.lg-table{color: green; 
-width: 800px;
+.lg-legend{
+  font-family: cursive;
+  text-align: center;
 }
-
-.lg-label{text-decoration: none;
+.lg-fieldset{color: green;   /* keep */
+  border: 0;
+width: 700px;
+position: relative;
+left: 1125px;
+bottom: 200px;
+background-color: transparent;
+}
+.lg-fieldset .lg-goal{
+  display: block;
+}
+.lg-goal{
+  text-decoration: none; /* keep */
 color: green;
 font-family: cursive;
 font-size: 24px;
+padding: 10px;
+}
+.slides{                        /* keep */
+  margin: 0;
+  position: relative;
+  left: 450px;
+  top: 350px;
 }
 
-input:checked + label{ color: red;
-}
 footer button img{
     width: 200px;
     height: 200px;
