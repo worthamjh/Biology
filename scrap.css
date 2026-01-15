@@ -22,23 +22,28 @@ button:hover{
     cursor: pointer;
 } */
  /* <!-- <button>BallSack</button> --> */
- 
 .container{
-    background-color: #003049;
-    width: 100;
-    height: 400px;                  /* the set height determines how all of the flex elements will max out at*/
-    margin: 0 auto;
-    border: 5px solid #003049;
+    background-color: #000000;
+    width: 100%;
+    height: 200px;                  /* the set height determines how all of the flex elements will max out at*/
+    margin: 0;
+    border: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
+}
+h1{color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    position
+
 }
 .div{
     background-color: #f77f00;
-    height: 10%;
+    height: 1.5em;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #000000;
     font-family: monospace;
     color: black;
     font-size: 24px;
@@ -47,4 +52,24 @@ button:hover{
 .navlink{
     text-decoration: none;
     color: black;
+}
+.navlink:hover{
+    cursor: pointer;
+    color: white;
+}
+.lessonlink:hover{
+    cursor: pointer;
+    color: white;
+}
+.lessonlink{
+    background-color: #f77f00;
+    height: 1;
+    width: 100%;
+    border: 1px solid black;
+    font-family: monospace;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+
 }
