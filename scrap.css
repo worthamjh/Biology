@@ -37,7 +37,7 @@ h1{color: white;
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
 }
-.div{
+.div2{
     background-color: #f77f00;
     height: 1.5em;
     width: 100%;
@@ -55,19 +55,22 @@ h1{color: white;
     cursor: pointer;
     color: white;
 }
-.lessonlink:hover{
-    cursor: pointer;
-    color: white;
-}
 .lessonlink{
     background-color: #f77f00;
-    height: 1;
+    height: min-content;
     width: 100%;
     border: 1px solid black;
     font-family: monospace;
     color: black;
+    text-decoration: none;
     font-size: 16px;
-    text-align: center;
     display: flex;
+    justify-content: center;
+}
+.lessonlink:hover{
+    cursor: pointer;
+    color: white;
+}
+@media (max-width: 500px) {
 
 }
