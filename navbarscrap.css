@@ -1,0 +1,12 @@
+.Sitemenu_navcontainer{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+.Sitemenu_unitcontainer{
+    background-color: #f77f00;
+    height: 2em;
+    width: 100%;
+    border-color: black;
+    border-width: 2px;
+}

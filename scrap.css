@@ -1,4 +1,4 @@
-/* body{
+/* /* body{
     font-family: Roboto, sans-serif;
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@ button:hover{
     position: absolute;
     display: flex;
 } */
-/* .div2{
+div2{
     background-color: #f77f00;
     height: 1.5em;
     width: 100%;
@@ -83,7 +83,7 @@ h1{font-size: 2em;}
 .div2{font-size: 0.5em;
 }
 } */
-.container{
+container{
     color: white;
     background-color: black;
     width: 100%;
@@ -91,4 +91,4 @@ h1{font-size: 2em;}
     text-decoration: none;
     display: flex;
     justify-content: center;
-}
+} 
