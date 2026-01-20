@@ -44,13 +44,30 @@
 //     console.log('purple')
 // }
 
-let password = prompt('Please enter new password')
+// let password = prompt('Please enter new password')
 
-if (password.length >= 6)
-    if (password.indexOf(' ')===-1){
-    console.log('okay')
-    } else {
-    console.log('that password sucks ass')
-} else{
-    console.log('you suck ass')
-}
+// if (password.length >= 6)
+//     if (password.indexOf(' ')===-1){
+//     console.log('okay')
+//     } else {
+//     console.log('that password sucks ass')
+// } else{
+//     console.log('you suck ass')
+// }
+
+// const age = prompt('How old are you?')
+
+// if((age >= 0 && age < 5) || age >= 100){
+//     console.log('That will be $0, please.')
+// } else if (age > 5 && age < 18){
+//     console.log('That will be $10, please.')
+// } else if (age >= 18 && age<65){
+//     console.log('That will be $20, please.')
+// } else if (age >= 65 && age<100){
+//     console.log('That will be $5 old timer.')
+// } else if (age>=111){
+//     console.log('How are you alive')
+// }else {
+//     console.log('GTFO')
+// }
+
