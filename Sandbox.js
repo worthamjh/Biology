@@ -112,5 +112,22 @@
 // colors.splice(1,0,'redorange')
 // colors.splice(2,0,'yellowgreen', 'forestgreen')
 
-let scores= [1, 69, 100, 84, 35, 28]
-scores.sort()
+// let scores= [1, 69, 100, 84, 35, 28]
+// scores.sort()
+
+// const nums = [1,2,3]
+// nums.push(69)
+// nums.splice(1,0,67)
+// const numbs= nums;
+
+// const gameBoard = [ ['X', 'O', ''], ['X','X','X'],['null','O','X']]
+// gameBoard[1]
+
+// const airplaneSeats = [
+//     ['Ruth', 'Anthony', 'Stevie'],
+//     ['Amelia', 'Pedro', 'Maya'],
+//     ['Xavier', 'Ananya', 'Luis'],
+//     ['Luke', null, 'Deniz'],
+//     ['Rin', 'Sakura', 'Francisco']
+// ];
+// airplaneSeats[3][2]
