@@ -71,3 +71,46 @@
 //     console.log('GTFO')
 // }
 
+// const day=2;
+// switch (day){
+//     case 1:
+//         console.log('monday')
+//         break;
+//     case 2:
+//         console.log('tuesda')
+//         break;
+//     case 3:
+//         console.log('m')
+//         break;
+//     case 4:
+//         console.log('mon')
+//         break;
+// }
+// const leaderboard = ['Harry', 'Lua', 'Bellatrix'];
+// leaderboard[1] = 'Luna';
+// leaderboard[2] = 'Draco';
+// let movieLine = ['tom', 'nancy']
+// movieLine.push('oliver')
+// movieLine.push('harry')
+// movieLine.shift()
+// movieLine.push('Balls')
+// const planets = ['The Moon', 'Venus', 'Earth', 'Mars', 'Jupiter'];
+// planets.shift()
+// planets.push('Saturn')
+// planets.unshift('Mercury')
+
+// let cats = ['dixie', 'olivia', 'riley']
+// let dogs=['ruby', 'philly']
+// cats.concat('dogs')
+// let catdog = [cats.concat(dogs)]
+// catdog.reverse
+
+// let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+// let coolcolors = colors.slice(3)
+// let warmcolors = colors.slice(0,3)
+// colors.splice(5,1)
+// colors.splice(1,0,'redorange')
+// colors.splice(2,0,'yellowgreen', 'forestgreen')
+
+let scores= [1, 69, 100, 84, 35, 28]
+scores.sort()
