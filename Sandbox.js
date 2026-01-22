@@ -131,3 +131,28 @@
 //     ['Rin', 'Sakura', 'Francisco']
 // ];
 // airplaneSeats[3][2]
+
+// const person = {firstName: 'Mick', lastName: 'Jagger'}
+
+// const kitchenSink = {
+//     favNum: 696969,
+//     isFunny: true,
+//     colors: ['red', 'orange']
+// }
+
+// const product = {
+//     name: 'Gummy Bears',
+//     inStock: true,
+//     price: 1.99,
+//     flavors: ['grape','apple','cherry']
+// }
+// person['firstname']
+
+const restaurant = {
+    name: 'Ichiran Ramen',
+    address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
+    city: 'Brooklyn',
+    state: 'NY',
+    zipcode: '11206',
+}
+const fullAddress = `${restaurant.address}, ${restaurant.city}, ${restaurant.state} ${restaurant.zipcode}`;
