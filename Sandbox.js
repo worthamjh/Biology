@@ -148,11 +148,42 @@
 // }
 // person['firstname']
 
-const restaurant = {
-    name: 'Ichiran Ramen',
-    address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
-    city: 'Brooklyn',
-    state: 'NY',
-    zipcode: '11206',
+// const restaurant = {
+//     name: 'Ichiran Ramen',
+//     address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
+//     city: 'Brooklyn',
+//     state: 'NY',
+//     zipcode: '11206',
+// }
+// const fullAddress = `${restaurant.address}, ${restaurant.city}, ${restaurant.state} ${restaurant.zipcode}`;
+
+// const midTerms = {
+//     dan: 96,
+//     bob: 78
+// }
+// midTerms.bob = 80;
+// midTerms.bob = 'C+';
+// midTerms['dan']='A+'
+// midTerms['ezra']='B+'
+
+// const unitOneAssignments = [
+//     {title:'Lab-Life Under a Microscope Student Handout',
+//      image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Unit%201-Living%20Systems/1.1-Life%20in%20the%20Earth%20System/1.1.L1-Life%20Under%20a%20Microscope%20Image.PNG',
+//      link: 'https://kami.app/VvC-kzj-kzv-Ndd'},
+//     {title:'Exploartion 1-Systems and System Models',
+//      image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Unit%201-Living%20Systems/1.1-Life%20in%20the%20Earth%20System/1.1.Ex1-Systems%20and%20System%20Models%20Image.PNG',
+//      link: 'https://kami.app/AwT-kRs-jVR-sK3'}
+// ] 
+// unitOneAssignments[1][1]
+
+// for (let i=1; i<=1000000000; i += 69696969){
+//     console.log(i);
+// }
+
+// for ( let i=1; i<=6; i += 1){
+//     console.log('Da ba dee da ba daa')
+// }
+
+for (let i=0; i<=20; i+=2){
+    console.log(i)
 }
-const fullAddress = `${restaurant.address}, ${restaurant.city}, ${restaurant.state} ${restaurant.zipcode}`;
