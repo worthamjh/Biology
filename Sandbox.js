@@ -192,6 +192,41 @@
 //     console.log(i)
 // }
 
-for (let i=25; i>=0; i-=5){
-    console.log(i)
+// for (let i=25; i>=0; i-=5){
+//     console.log(i)
+// }
+
+// const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+
+// for (let i=0; i < people.length; i++){
+//     console.log(i, people[i].toUpperCase());
+// }
+
+// for (let i=0; i<=10; i++){
+//     console.log(`i is: ${i} `)
+//     for(let j=1; j< 4; j++){
+//         console.log(`j is: ${j}`)
+//     }
+// }
+
+const studentGrades = [
+  {
+    name: "Avery",
+    assignments: [90, 80, 100] // Total: 270, Average: 90
+  },
+  {
+    name: "Blake",
+    assignments: [70, 75]      // Total: 145, Average: 72.5
+  },
+  {
+    name: "Casey",
+    assignments: [100, 100, 95, 85] // Total: 380, Average: 95
+  }
+];
+
+for (let i=0; i <studentGrades.length; i++){
+    const grade = studentGrades[i];
+    console.log(i, studentGrades[i])
+    for(let j=0; j<grade.length; j++)
+        console.log(`Grade ${j}`)
 }
