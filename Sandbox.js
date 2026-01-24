@@ -209,24 +209,83 @@
 //     }
 // }
 
-const studentGrades = [
-  {
-    name: "Avery",
-    assignments: [90, 80, 100] // Total: 270, Average: 90
-  },
-  {
-    name: "Blake",
-    assignments: [70, 75]      // Total: 145, Average: 72.5
-  },
-  {
-    name: "Casey",
-    assignments: [100, 100, 95, 85] // Total: 380, Average: 95
-  }
-];
+// const studentGrades = [
+//   {
+//     name: "Avery",
+//     assignments: [90, 80, 100] // Total: 270, Average: 90
+//   },
+//   {
+//     name: "Blake",
+//     assignments: [70, 75]      // Total: 145, Average: 72.5
+//   },
+//   {
+//     name: "Casey",
+//     assignments: [100, 100, 95, 85] // Total: 380, Average: 95
+//   }
+// ];
 
-for (let i=0; i <studentGrades.length; i++){
-    const grade = studentGrades[i];
-    console.log(i, studentGrades[i])
-    for(let j=0; j<grade.length; j++)
-        console.log(`Grade ${j}`)
+// for (let i=0; i <studentGrades.length; i++){
+//     const grade = studentGrades[i];
+//     console.log(i, studentGrades[i])
+//     for(let j=0; j<grade.length; j++)
+//         console.log(`Grade ${j}`)
+// }
+
+// let count=0;
+// while(count < 10){
+//   console.log(count)
+//   count++;
+// }
+
+// const secret='babyhippo';                       
+
+// let guess = prompt('What is the password?')
+// while(guess !== secret){
+//   guess = prompt('What is the password?');
+// }
+// console.log('boners')
+
+// let input = prompt('Hey you schmuck, say something')
+// while (true){
+//   input = prompt(input);
+//   if(input === 'stop'){
+//     break;
+//   }
+// }
+// console.log('Hell if it is');
+
+// let guess = prompt('Guess a number between 0-50')
+// while (true){
+//   guess = prompt('Guess a number between 0-50');
+//   if(guess < '5'){
+//    guess = prompt('awful guess') 
+//   }
+//   if(guess > '45'){
+//     guess = prompt('Way too high')
+//   }
+//   if(guess === '25'){
+//     break;
+//   }
+// }
+// console.log('boners')
+
+
+let maximum = parseInt(prompt('Enter the maximum number'));
+while(!maximum){
+  maximum = parseInt(prompt('Enter a valid number'));
 }
+
+const targetNum = Math.floor(Math.random() * maximum) + 1;
+console.log(targetNum);
+
+let guess = parseInt(prompt('enter your guess'));
+
+while(guess !== targetNum){
+  if (guess > targetNum){
+    guess= parseInt(prompt('that number is too high'));
+  }
+  else {
+    guess= parseint(prompt('that number is too low'));
+  }
+} 
+console.log('gg')
