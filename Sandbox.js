@@ -323,26 +323,41 @@
 //   console.log(num*num)
 // }
 
-const footer=[
-    {title:'Canvas',
-     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.CanvasLogo.png',
-     link:'https://wgsd.instructure.com/login/canvas'},
-    {title:'Clever',
-     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.Clever.Logo.png',
-     link:'https://clever.com/oauth/district-picker?channel=clever&client_id=4c63c1cf623dce82caac&confirmed=true&redirect_uri=https%3A%2F%2Fclever.com%2Fin%2Fauth_callback&response_type=code&state=073ccec89c0496afb0b1918689a1cdf1380ad0fa00287446edd93fde044263c7'},
-    {title:'Gmail',
-     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.GmailLogo.png',
-     link:'https://workspace.google.com/intl/en-US/gmail/'},
-    {title:'Google Drive',
-     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.GoogleDriveLogo.png',
-     link:'https://workspace.google.com/products/drive/'},
-    {title:'Webster Groves School District',
-     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.WGLogo.2.png',
-     link:'https://www.webster.k12.mo.us/'},
-    {title:'YouTube',
-     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.YoutubeLogo.png',
-     link:'https://www.youtube.com'},
-    {title:'Special School Distrrict',
-     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.SSDLogo.png',
-     link:'https://www.ssdmo.org'}     
-];
+ 
+// for(let item in footer){
+//     console.log(item)
+//     for(let meti of Object.values(footer)){
+//         console.log(meti)
+//     }
+// }
+
+let list=[
+    ['Scrub balls'],
+  ['Lick butt'],
+  ['Motor saggy tits'],
+  ['Suck vajayjay'],
+  ['Poop and pee']
+]
+
+
+
+let todo = prompt('What would you like to do?')
+let news = prompt('Add to list')
+while(todo !== 'quit'){
+    if(todo ==='new'){
+        prompt('Add to list')
+        while(news !== 'quit'){
+            console.log(`${news}`)
+        }
+    }
+    if(todo === 'list'){
+        for(let item of list){
+            console.log(`Please select from the list ${item}`)
+        }
+    }
+    if(todo === 'quit'){
+        break;
+    }
+    else(todo = prompt( 'What would you like to do?'))
+}
+console.log('gg')
