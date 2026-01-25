@@ -270,22 +270,79 @@
 // console.log('boners')
 
 
-let maximum = parseInt(prompt('Enter the maximum number'));
-while(!maximum){
-  maximum = parseInt(prompt('Enter a valid number'));
-}
+// let maximum = parseInt(prompt('Enter the maximum number'));
+// while(!maximum){
+//   maximum = parseInt(prompt('Enter a valid number'));
+// }
 
-const targetNum = Math.floor(Math.random() * maximum) + 1;
-console.log(targetNum);
+// const targetNum = Math.floor(Math.random() * maximum) + 1;
 
-let guess = parseInt(prompt('enter your guess'));
+// let guess = parseInt(prompt('Enter you first guess please'));
+// let attempts = 1;
 
-while(guess !== targetNum){
-  if (guess > targetNum){
-    guess= parseInt(prompt('that number is too high'));
-  }
-  else {
-    guess= parseint(prompt('that number is too low'));
-  }
-} 
-console.log('gg')
+// while(parseInt(guess) !== targetNum){
+//   if (guess === 'q'){
+//     break
+//   }
+//   attempts++;
+//   if (guess > targetNum){
+//     guess= (prompt('that number is too high'));
+//   }
+//   if (guess === targetNum){
+//     break;
+//   }
+//   else {
+//     guess= (prompt('that number is too low'));
+//   }
+// } 
+// if (guess==='q'){
+//   console.log('you are a quitter bum ass');}
+// else{
+//   console.log(`GG that took you ${attempts} guesses`)
+// }
+
+// const footer=[
+//   ['balls', 'ass', 'tits'],
+//   ['weiner', 'butt', 'boobs'],
+//   ['cock', 'booty', 'saggy']
+// ]
+
+// for(let sub of footer ){
+//   console.log(sub)
+// }
+
+// for(let row of footer){
+//   for(let rock of row){
+//     console.log(rock)
+//   }
+// }
+
+// const numbers = [1,2,3,4,5,6,7,8,9];
+
+// for(let num of numbers){
+//   console.log(num*num)
+// }
+
+const footer=[
+    {title:'Canvas',
+     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.CanvasLogo.png',
+     link:'https://wgsd.instructure.com/login/canvas'},
+    {title:'Clever',
+     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.Clever.Logo.png',
+     link:'https://clever.com/oauth/district-picker?channel=clever&client_id=4c63c1cf623dce82caac&confirmed=true&redirect_uri=https%3A%2F%2Fclever.com%2Fin%2Fauth_callback&response_type=code&state=073ccec89c0496afb0b1918689a1cdf1380ad0fa00287446edd93fde044263c7'},
+    {title:'Gmail',
+     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.GmailLogo.png',
+     link:'https://workspace.google.com/intl/en-US/gmail/'},
+    {title:'Google Drive',
+     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.GoogleDriveLogo.png',
+     link:'https://workspace.google.com/products/drive/'},
+    {title:'Webster Groves School District',
+     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.WGLogo.2.png',
+     link:'https://www.webster.k12.mo.us/'},
+    {title:'YouTube',
+     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.YoutubeLogo.png',
+     link:'https://www.youtube.com'},
+    {title:'Special School Distrrict',
+     image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.SSDLogo.png',
+     link:'https://www.ssdmo.org'}     
+];
