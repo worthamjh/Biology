@@ -331,30 +331,35 @@
 //     }
 // }
 
-let list=[
+const list=[
     ['Scrub balls'],
   ['Lick butt'],
   ['Motor saggy tits'],
   ['Suck vajayjay'],
   ['Poop and pee']
-]
+];
 
 
 
 let todo = prompt('What would you like to do?')
-let news = prompt('Add to list')
-while(todo !== 'quit'){
+while(todo !== 'quit' && todo !== 'q'){
     if(todo ==='new'){
-        prompt('Add to list')
-        while(news !== 'quit'){
-            console.log(`${news}`)
+        let news = prompt('Add to list')
+        for (let newsItem of news){
+            console.log(newsItem)
+        }
+        if(news !== 'quit'){console.log()
+        }
+        if (news === 'quit'){
+            break
         }
     }
     if(todo === 'list'){
-        for(let item of list){
-            console.log(`Please select from the list ${item}`)
+        for(let i=0; i<list.length; i++){
+            console.log(`${i}: ${list[i]}`);
         }
     }
+    
     if(todo === 'quit'){
         break;
     }
