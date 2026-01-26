@@ -331,38 +331,70 @@
 //     }
 // }
 
-const list=[
-    ['Scrub balls'],
-  ['Lick butt'],
-  ['Motor saggy tits'],
-  ['Suck vajayjay'],
-  ['Poop and pee']
-];
 
+// const list=[];
+// let todo = prompt('What would you like to do?')
+// while(todo !== 'quit' && todo !== 'q'){
+//     if(todo === 'list'){
+//         for(let i=0; i<list.length; i++){
+//             console.log(`${i}: ${list[i]}`);
+//         }
+//     }
+//     else if(todo ==='new'){
+//         const news = prompt('What do you want to add to your new list?');
+//         list.push(news);
+//         console.log(`${news} added to the list`);
+//     }
+//     else if(todo === 'delete'){
+//         const index=parseInt(prompt('What number would you like to delete from the list?'));
+//         if(!Number.isNaN(index)){
+//         const deleted= list.splice(index,1);
+//         console.log(`The item ${deleted[0]} has been removed from the list.`);
+//         }
+//         else{
+//             console.log(`Unknown index`)
+//         }
+//     }
+//     todo = prompt( 'What would you like to do?')
+// }
+// console.log('gg')
 
+// function sing(){
+//     console.log('Doe');
+//     console.log('Rae');
+//     console.log('Me');
+//     console.log('Fa');
+//     console.log('So');
+//     console.log('La');
+//     console.log('Tee');
+//     console.log('Doe');
+// }
 
-let todo = prompt('What would you like to do?')
-while(todo !== 'quit' && todo !== 'q'){
-    if(todo ==='new'){
-        let news = prompt('Add to list')
-        for (let newsItem of news){
-            console.log(newsItem)
-        }
-        if(news !== 'quit'){console.log()
-        }
-        if (news === 'quit'){
-            break
-        }
-    }
-    if(todo === 'list'){
-        for(let i=0; i<list.length; i++){
-            console.log(`${i}: ${list[i]}`);
-        }
-    }
-    
-    if(todo === 'quit'){
-        break;
-    }
-    else(todo = prompt( 'What would you like to do?'))
-}
-console.log('gg')
+// function printHeart(){
+//     console.log('<3')
+// }
+// printHeart()
+
+// function greet(firstName){
+//     console.log(`Hi, ${firstName}`)
+// }
+
+// greet('InsertFirstNameOfChoice')
+
+// function rant(message){
+//     console.log(`${message.toUpperCase()}`)
+//     console.log(`${message.toUpperCase()}`)
+//     console.log(`${message.toUpperCase()}`)
+// }
+
+// function greet(firstName, lastName){
+//     console.log(`Hi, ${firstName} ${lastName[0]}.`)
+// }
+
+// function repeat(str, reps){
+//     let result = '';
+//     for(let i=0; i<reps; i++){
+//         result += str;
+//     }
+//     console.log(result)
+// }
