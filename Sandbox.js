@@ -105,11 +105,11 @@
 // let catdog = [cats.concat(dogs)]
 // catdog.reverse
 
-// let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-// let coolcolors = colors.slice(3)
-// let warmcolors = colors.slice(0,3)
-// colors.splice(5,1)
-// colors.splice(1,0,'redorange')
+let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+let coolcolors = colors.slice(3)
+let warmcolors = colors.slice(0,3)
+colors.splice(5,1)
+colors.splice(1,0,'redorange')
 // colors.splice(2,0,'yellowgreen', 'forestgreen')
 
 // let scores= [1, 69, 100, 84, 35, 28]
@@ -399,10 +399,48 @@
 //     console.log(result)
 // }
 
-function isSnakeEyes(die1, die2){
-    if(die1 === 1 && die2 === 1){
-        console.log('Snake Eyes!');
-    }
-    else{console.log('Not Snake Eyes!');
-    }
+// function isSnakeEyes(die1, die2){
+//     if(die1 === 1 && die2 === 1){
+//         console.log('Snake Eyes!');
+//     }
+//     else{console.log('Not Snake Eyes!');
+//     }
+// }
+
+// function add(x,y){
+//     if(typeof x !== 'number' || typeof y !== 'number'){
+//         return false;
+//     }
+//     let sum =x + y;
+//     return sum;
+// }
+
+// function multiply(num1,num2){
+//     let product = num1 * num2;
+//     return product;
+// }
+
+// function isShortsWeather(temp){
+//     if (temp >= 75){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+
+// function lastElement(arr){
+//     if(arr.length === 0){
+//         return null;
+//     }
+//     else{
+//         return arr[arr.length - 1];
+//     }
+// }
+
+
+function capitalize(str){
+    const newStr=str.slice(1);
+    const newStrCap =str[0]
+        return newStrCap.toUpperCase() + newStr;
 }
