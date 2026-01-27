@@ -105,11 +105,11 @@
 // let catdog = [cats.concat(dogs)]
 // catdog.reverse
 
-let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-let coolcolors = colors.slice(3)
-let warmcolors = colors.slice(0,3)
-colors.splice(5,1)
-colors.splice(1,0,'redorange')
+// let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+// let coolcolors = colors.slice(3)
+// let warmcolors = colors.slice(0,3)
+// colors.splice(5,1)
+// colors.splice(1,0,'redorange')
 // colors.splice(2,0,'yellowgreen', 'forestgreen')
 
 // let scores= [1, 69, 100, 84, 35, 28]
@@ -439,8 +439,37 @@ colors.splice(1,0,'redorange')
 // }
 
 
-function capitalize(str){
-    const newStr=str.slice(1);
-    const newStrCap =str[0]
-        return newStrCap.toUpperCase() + newStr;
+// function capitalize(str){
+//     const newStr=str.slice(1);
+//     const newStrCap =str[0]
+//         return newStrCap.toUpperCase() + newStr;
+// }
+
+// function sumArray(nums) {
+//   let total = 0;
+//   for (let num of nums) {
+//     total += num;
+//   }
+//   return total;
+// }
+
+// function sumArray(nums) {
+//   let total = 0;
+//   for (let i = 0; i < nums.length; i++) {
+//     total += nums[i];
+//   }
+//   return total;
+// }
+const days=['Monday','Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+function returnDay(num){
+    if (num > '7'){
+        return null;
+    }
+    if (num < '1'){
+        return null;
+    }
+    else{
+        return days[num -= 1];
+     }
 }
