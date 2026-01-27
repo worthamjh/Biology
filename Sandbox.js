@@ -460,16 +460,23 @@
 //   }
 //   return total;
 // }
-const days=['Monday','Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-function returnDay(num){
-    if (num > '7'){
-        return null;
-    }
-    if (num < '1'){
-        return null;
-    }
-    else{
-        return days[num -= 1];
-     }
+
+// const days=['Monday','Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+// function returnDay(num){
+//     if (num > '7'){
+//         return null;
+//     }
+//     if (num < '1'){
+//         return null;
+//     }
+//     else{
+//         return days[num -= 1];
+//      }
+// }
+
+function collectEggs() {
+    let totalEggs = 6;
+    console.log(totalEggs)
 }
