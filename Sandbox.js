@@ -557,11 +557,60 @@
 //     return num1 >= 50 && num1 <=100
 // }
 
-function makeBetweenFunc(min,max){
-    return function(num){
-        return num >= min && num <= max;
+// function makeBetweenFunc(min,max){
+//     return function(num){
+//         return num >= min && num <= max;
+//     }
+// }
+// const isChild= makeBetweenFunc(0,18)
+// const isAdult= makeBetweenFunc(19,64)
+// const isSenior= makeBetweenFunc(65,120)
+// **********************************************************************
+// METHODS
+// const myMath={
+//     PI:3.14,
+//     square: function(num){
+//         return num * num;
+//     },
+//     cube: function(num){
+//         return num * num * num;
+//     }
+// }
+// Shorthand way to write the above method
+// const myMath={
+//     PI:3.14,
+//     square(num){
+//         return num * num;
+//     },
+//     cube(num){
+//         return num * num * num;
+//     }
+// }
+
+// const square={
+//     area (side){
+//         return side * side;
+//     },
+//     perimeter(side){
+//         return side * 4;
+//     }
+// }
+// *******************************************************************************
+// KEYWORD THIS
+const myMath={
+    PI:3.14,
+    square(num){
+        return num * num;
+    },
+    cube(num){
+        return num * num * num;
     }
 }
-const isChild= makeBetweenFunc(0,18)
-const isAdult= makeBetweenFunc(19,64)
-const isSenior= makeBetweenFunc(65,120)
+const dog = {
+    name: 'Ruby',
+    color: 'black',
+    breed: 'Rottweiler',
+    woof(){
+        console.log(`${this.name} says 'Woof woof'`);
+    }
+}
