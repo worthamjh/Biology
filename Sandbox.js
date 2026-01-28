@@ -476,7 +476,92 @@
 //      }
 // }
 
-function collectEggs() {
-    let totalEggs = 6;
-    console.log(totalEggs)
+// function collectEggs() {
+//     let totalEggs = 6;
+//     console.log(totalEggs)
+// }
+
+// function bankRobbery(){
+//     const heroes = ['Mermaid Man', 'Barnacle Boy']
+//     function cryForHelp(){
+//         function inner(){
+//             let color = 'purple'
+//         for (let hero of heroes){
+//             console.log(`Great Barrier Reef! It's ${hero.toUpperCase()}!`)
+//         }
+//     }
+//     inner();
+// }
+//     cryForHelp();
+// }
+
+// function add(x,y){
+//     return x + y;
+// }
+
+// const add=function(x,y){
+//     return x + y;
+// }
+
+// const square = function (num){
+//     return num*num;
+// }
+
+// function callTwice(func) {
+//     func();
+//     func();
+// }
+
+// function laugh() {
+//     console.log('HAHAHAHAHAHAHAHAHA')
+// }
+// callTwice(laugh)
+// *****************************************************
+// FUNCTIONS THAT ACCEPT OTHER FUNCTIONS AS ARGUMENTS
+// function callTwice(func) {
+//     func();
+//     func();
+// }
+// function callTenTimes(f){
+//     for(let i=0; i<10; i++){
+//         f();
+//     }
+// }
+
+// function rollDie(){
+//     const roll = Math.floor(Math.random()*6) + 1
+//     console.log(roll)
+// }
+
+// callTwice(rollDie)
+// callTenTimes(rollDie)
+// ************************************************************
+// RETURN A FUNCTION
+
+// function makeMysteryFunc(){
+//     const rand=Math.random();
+//     if(rand > 0.5){
+//         return function(){
+//             console.log('Congratulations')
+//         }
+//     } 
+//     else{
+//         return function(){
+//             console.log('BallSack')
+//         }
+//     }
+// }
+// const mystery = makeMysteryFunc()
+
+// function isBetween(num1){
+//     return num1 >= 50 && num1 <=100
+// }
+
+function makeBetweenFunc(min,max){
+    return function(num){
+        return num >= min && num <= max;
+    }
 }
+const isChild= makeBetweenFunc(0,18)
+const isAdult= makeBetweenFunc(19,64)
+const isSenior= makeBetweenFunc(65,120)
