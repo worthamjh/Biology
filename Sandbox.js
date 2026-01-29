@@ -597,20 +597,89 @@
 // }
 // *******************************************************************************
 // KEYWORD THIS
-const myMath={
-    PI:3.14,
-    square(num){
-        return num * num;
-    },
-    cube(num){
-        return num * num * num;
-    }
-}
-const dog = {
-    name: 'Ruby',
-    color: 'black',
-    breed: 'Rottweiler',
-    woof(){
-        console.log(`${this.name} says 'Woof woof'`);
-    }
-}
+// const myMath={
+//     PI:3.14,
+//     square(num){
+//         return num * num;
+//     },
+//     cube(num){
+//         return num * num * num;
+//     }
+// }
+// const dog = {
+//     name: 'Ruby',
+//     color: 'black',
+//     breed: 'Rottweiler',
+//     woof(){
+//         console.log(`${this.name} says 'Woof woof'`);
+//     }
+// }
+// ********************************************************************************
+// Egg Laying Exercise
+
+// const hen={
+//     name: 'Helen',
+//     eggCount: 0,
+//     layAnEgg(){
+//         this.eggCount++;
+//         return 'EGG';
+//     }
+// }
+// *************************************************************************************
+// FOR EACH CALLBACK ARRAY
+
+// const numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+// numbers.forEach(function (el){
+//     if (el % 2 === 0)
+//     console.log(el)
+// })
+
+// const movie=[
+//     {
+//         title:'Sandlot',
+//         score: 100
+//     },
+//     {
+//         title:'Toy Story',
+//         score: 100
+//     },
+//     {
+//         title:'Cats',
+//         score: 37
+//     }
+// ]
+
+// movie.forEach(function(movie){
+//     console.log(`${movie.title} - ${movie.score}`)
+// })
+
+// const unit1Lesson1Assignments = [
+//     {
+//         title:'Exploartion 1-Systems and System Models',
+//         image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Unit%201-Living%20Systems/1.1-Life%20in%20the%20Earth%20System/1.1.Ex1-Systems%20and%20System%20Models%20Image.PNG',
+//         link:'https://kami.app/AwT-kRs-jVR-sK3'
+//     },
+//     {
+//         title:'Lab-Life Under a Microscope Student Handout',
+//         image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Unit%201-Living%20Systems/1.1-Life%20in%20the%20Earth%20System/1.1.L1-Life%20Under%20a%20Microscope%20Image.PNG',
+//         link:'https://kami.app/VvC-kzj-kzv-Ndd'
+//     },
+//     {
+//         title:'Exploration 2-The Earth System',
+//         image:'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Unit%201-Living%20Systems/1.1-Life%20in%20the%20Earth%20System/1.1.Ex2-The%20Earth%20System%20Image.PNG"',
+//         link:'https://kami.app/vAN-bvD-MJj-1r7'
+//     }
+// ]
+
+// unit1Lesson1Assignments.forEach(function(unit1Lesson1Assignments){
+//     console.log(`${unit1Lesson1Assignments.title}`)
+// })
+
+// MAP ARRAY
+
+const numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+ 
+const doubles= numbers.map(function(num){
+    return num * 2;
+ })
