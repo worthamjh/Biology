@@ -886,6 +886,57 @@
 //     return bestMovie;
 // })
 
-const numbersOne = [2, 4, 6, 8, 10];
+// const numbersOne = [2, 4, 6, 8, 10];
 
-const addNum = numbersOne.reduce((sum,num) =>sum + num, 100)
+// const addNum = numbersOne.reduce((sum,num) =>sum + num, 100)
+
+// const person = {
+//     firstName: 'Viggo',
+//     lastName: 'Mortensen',
+//     fullName: function() {
+//         return `${this.firstName} ${this.lastName}`
+//     },
+//     shoutName: function () {
+//         setTimeout(() => {
+//             console.log(this);
+//             console.log(this.fullName())
+//         }, 3000)
+//     }
+// }
+// *************************************************************************************
+// DEFAULT PARAM
+
+// function rollDie(numSides){
+//     if (numSides === undefined) {
+//         numSides = 6
+//     }
+//     return Math.floor(Math.random() * numSides) + 1
+// }
+
+// ABOVE REWRITTEN BELOW
+
+// function rollDie(numSides = 6){
+//     return Math.floor(Math.random() * numSides) + 1
+// }
+
+// ********************************************************************************************
+// SPREAD
+
+// const cats = ['Dixie', 'Riley', 'Nino', 'Olivia'];
+// const dogs = ['Ruby', 'Philly', 'Balto'];
+
+// const allPets = [...cats, ...dogs]
+
+
+// const feline ={legs: 4, family: 'Felidae'};
+// const canine ={isFurry: true, family: 'Caninae'}
+
+// const catDog = {...feline, ...canine}
+
+// ***************************************************************************************************
+// REST
+
+function sum(...nums){
+    console.log(nums)
+}
+
