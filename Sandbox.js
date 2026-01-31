@@ -831,7 +831,61 @@
 // ]
 
 // movie.some(movie => movie.year > 2013)
-const numbersOne = [2, 4,  6, 8, 10]
-const numbersTwo = [1, 2, 4, 7, 9, 10]
+// const numbersOne = [2, 4, 6, 8, 10]
+// const numbersTwo = [1, 2, 4, 7, 9, 10]
 
-allEvens = numbersOne.every( num => num % 2 === 0)
+// allEvens = numbersOne.every( num => num % 2 === 0)
+
+// function allEvens(arr) {
+//   return arr.every(function (num) {
+//     return num % 2 === 0;
+//   });
+// }
+
+// OR
+
+// const allEvens = function (arr) {
+//   return arr.every(num => num % 2 === 0);
+// }
+// *************************************************************************
+// REDUCER
+// const prices = [9.99, 1.50, 19.99, 49.99, 30.50];
+
+// const total = prices.reduce((total,price) => {
+//     return total + price
+// });
+
+// const minprice = prices.reduce((min,price) => {
+//     if(price < min){
+//         return price;
+//     }
+//     return min;
+// })
+//  const movie=[
+//     {
+//         title:'Sandlot',
+//         score: 100,
+//         year: 1998
+//     },
+//     {
+//         title:'Toy Story',
+//         score: 101,
+//         year: 1997
+//     },
+//     {
+//         title:'Cats',
+//         score: 37,
+//         year: 2015
+//     }
+// ]
+
+// const highestRated = movie.reduce((bestMovie,currentMovie) => {
+//     if (currentMovie.score > bestMovie.score){
+//         return currentMovie;
+//     }
+//     return bestMovie;
+// })
+
+const numbersOne = [2, 4, 6, 8, 10];
+
+const addNum = numbersOne.reduce((sum,num) =>sum + num, 100)
