@@ -678,8 +678,160 @@
 
 // MAP ARRAY
 
-const numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+// const numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
  
-const doubles= numbers.map(function(num){
-    return num * 2;
- })
+// const doubles= numbers.map(function(num){
+//     return num * 2;
+//  })
+
+// const movie=[
+//     {
+//         title:'Sandlot',
+//         score: 100
+//     },
+//     {
+//         title:'Toy Story',
+//         score: 100
+//     },
+//     {
+//         title:'Cats',
+//         score: 37
+//     }
+// ]
+
+// const titles = movie.map(function(movie){
+//     return movie.title;
+// }
+// )
+
+// const fullNames = [{first: 'Albus', last: 'Dumbledore'}, 
+//     {first: 'Harry', last: 'Potter'}, 
+//     {first: 'Hermione', last: 'Granger'}, 
+//     {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, 
+//     {first: 'Minerva', last: 'McGonagall'}, 
+//     {first: 'Severus', last: 'Snape'}];
+
+// const firstNames = fullNames.map(function(fullNames){
+//     return fullNames.first;
+// })
+// ******************************************************************************
+// ARROW FUNCTIONS
+
+// const add = (x,y) => {
+//     return x + y;
+// }
+
+// const square = (x) => {
+//     return x*x;
+// }
+
+// const rollDie = () => {
+//     return Math.floor(Math.random() * 6) + 1;
+// }
+
+// const greet = (x) => {
+//     return `Hey ${x}!`;
+// } 
+// *************************************************************
+// ARROW FUNCTIONS AND IMPLICIT RETURN
+
+// const rollDie = () => (
+//     Math.floor(Math.random() * 6) + 1
+// )
+
+// const movie=[
+//     {
+//         title:'Sandlot',
+//         score: 100
+//     },
+//     {
+//         title:'Toy Story',
+//         score: 100
+//     },
+//     {
+//         title:'Cats',
+//         score: 37
+//     }
+// ]
+
+// const score = movie.map(movie =>(
+//     `${movie.title} - ${movie.score / 10}`
+// ))
+// ***************************************************************************
+// SET TIMEOUT
+
+// setTimeout(() => {
+//     console.log("HELLLLLOOOOOOOO")
+// }, 3000)
+
+// const id=setInterval(() => {
+//     console.log(Math.random())
+// }, 3000);
+// ************************************************************************************
+// FILTER
+
+// const numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+// numbers.filter(n => {
+//     return n < 10;
+// })
+// const movie=[
+//     {
+//         title:'Sandlot',
+//         score: 100,
+//         year: 1998
+//     },
+//     {
+//         title:'Toy Story',
+//         score: 100,
+//         year: 1997
+//     },
+//     {
+//         title:'Cats',
+//         score: 37,
+//         year: 2015
+//     }
+// ]
+
+// const score = movie.filter((movie) => {
+//     return movie.score < 100;
+// })
+
+// OR YOU COULD WRITE
+
+// const badMovies = movie.filter(m => m.score < 100)
+// const badMovieTitles = badMovies.map(m => m.title)
+
+// OR YOU CAN WRITE THE TWO ABOVE LINES ON ONE BY CHAINING FILTER AND MAP
+
+// const recentmovies = movie.filter(m => m.year > 2010)
+// ************************************************************************
+// EVERY AND SOME
+
+// const exams =[80, 98, 92, 78, 77, 90, 89, 81, 77]
+
+// exams.every(score => score >= 75)
+
+//  const movie=[
+//     {
+//         title:'Sandlot',
+//         score: 100,
+//         year: 1998
+//     },
+//     {
+//         title:'Toy Story',
+//         score: 100,
+//         year: 1997
+//     },
+//     {
+//         title:'Cats',
+//         score: 37,
+//         year: 2015
+//     }
+// ]
+
+// movie.some(movie => movie.year > 2013)
+const numbersOne = [2, 4,  6, 8, 10]
+const numbersTwo = [1, 2, 4, 7, 9, 10]
+
+allEvens = numbersOne.every( num => num % 2 === 0)
