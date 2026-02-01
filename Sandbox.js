@@ -986,3 +986,18 @@
 // })
 // *******************************************************************************************************
 // DOM
+// GET ELEMENT BY ID
+// const image = document.getElementById('unicorn');
+// const heading = document.getElementById('mainheading');
+
+// const allImages = document.getElementsByTagName('img')
+
+// for (let image of allImages) {
+//     image.src = 'https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Logos/I.Clever.Logo.png';
+// }   SETS ALL IMAGES TO THE SPECIFIED IMAGE SOURCE
+
+// const lgGoal = document.getElementsByClassName('lg-goal')
+
+const inputSelector = document.querySelector('input')
+const anchorSelector = document.querySelector('a')
+const anchorSelector3 = document.querySelector('a:nth-of-type(3)')
