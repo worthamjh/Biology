@@ -936,7 +936,53 @@
 // ***************************************************************************************************
 // REST
 
-function sum(...nums){
-    console.log(nums)
-}
+// function sum(...nums){
+//     console.log(nums)
+// }
+// *******************************************************************************************************
+// DESTRUCTURING OBJECTS
 
+// const user = {
+//     email: 'harvey@gmail.com',
+//     password: 'password1234',
+//     firstName: 'Harvey',
+//     lastName: 'Dent',
+//     born: 1930,
+//     died: 1978,
+//     bio: 'Balls on one face, schlong on the other',
+//     city: 'Gotham',
+//     state: 'Not New York'
+// }
+
+// const {email, firstName= 'first name', city, state} = user;
+
+// const {died: deathYear} = user;
+// ******************************************************************************************
+// PARAM DESTRUCURING 
+
+// function fullName({firstName, lastName}) {
+//     return `${firstName} ${lastName}`
+// }
+
+// const movies = [
+//   { title: "The Shawshank Redemption", year: 1994, score: 91 },
+//   { title: "The Godfather", year: 1972, score: 97 },
+//   { title: "The Dark Knight", year: 2008, score: 94 },
+//   { title: "Pulp Fiction", year: 1994, score: 92 },
+//   { title: "Schindler's List", year: 1993, score: 98 },
+//   { title: "Inception", year: 2010, score: 87 },
+//   { title: "The Matrix", year: 1999, score: 83 },
+//   { title: "Parasite", year: 2019, score: 99 },
+//   { title: "Spirited Away", year: 2001, score: 97 },
+//   { title: "Interstellar", year: 2014, score: 73 },
+//   { title: "Mad Max: Fury Road", year: 2015, score: 97 },
+//   { title: "Spider-Man: Into the Spider-Verse", year: 2018, score: 97 }
+// ];
+
+// // movies.filter((movie) => movie.score >= 90)
+// // movies.filter(({score}) => score >=90)
+// movies.map(({title, score, year}) => {
+//     return `${title} (${year}) had a score of ${score}` 
+// })
+// *******************************************************************************************************
+// DOM
