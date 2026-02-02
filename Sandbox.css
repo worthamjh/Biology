@@ -8,12 +8,11 @@ body{
   padding: 0;
 }
 .unitnav2{
-  display: flex;              /* horizontal menu; change to column for vertical nav */
-  gap: 1rem;
+  display: flex;            
   align-items: center;
 }
 .unitnav2 > li {
-  position: relative;         /* for submenu absolute positioning */
+  position: relative;       
 }
 .unitnavlink, .unitnav2 > li > a {
   display: inline-block;
@@ -21,7 +20,6 @@ body{
   color: #111;
   text-decoration: none;
 }
-
 
 
 /* h5{

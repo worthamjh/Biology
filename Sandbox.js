@@ -997,8 +997,9 @@
 // }   SETS ALL IMAGES TO THE SPECIFIED IMAGE SOURCE
 
 // const lgGoal = document.getElementsByClassName('lg-goal')
-
-const inputSelector = document.querySelector('input')
+// ****************************************************************************
+// QUERY SELECTOR
+// const inputSelector = document.querySelector('input')
 // const anchorSelector = document.querySelectorAll('a')
 // const anchorSelector3 = document.querySelector('a:nth-of-type(3)')
 // const pSelector = document.querySelector('p')
@@ -1009,5 +1010,47 @@ const inputSelector = document.querySelector('input')
 // const buttonSelector = document.querySelector('li')
 // buttonSelector.getAttribute('href')
 
-const imgSelector =document.querySelector('img');
-imgSelector.setAttribute(src, 'https://images.unsplash.com/photo-1581061090142-c2cd0ec9f021?w=200')
+// const imgSelector =document.querySelector('img');
+// imgSelector.setAttribute('src', 'https://images.unsplash.com/photo-1581061090142-c2cd0ec9f021?w=200')
+// imgSelector.alt='chicken';
+
+// const h1 = document.querySelector('h1');
+// const allLinks = document.querySelectorAll('a')
+// for(let link of allLinks){
+//     link.style.color = 'blue';
+// }
+
+// window.getComputedStyle(h1).color
+
+// const divSelector = document.getElementById('container');
+// divSelector.style.textAlign = 'center';
+// const imgSelector = document.querySelector('img');
+// imgSelector.style.width = '150px';
+// imgSelector.style.borderRadius = '50%';
+
+// const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+// const spanSelector = document.querySelectorAll('span');
+// spanSelector[0].style.color = 'red';
+// spanSelector[1].style.color = 'orange';
+// spanSelector[2].style.color = 'yellow';
+// spanSelector[3].style.color = 'green';
+// spanSelector[4].style.color = 'blue';
+// spanSelector[5].style.color = 'indigo';
+// spanSelector[6].style.color = 'violet';
+
+// OR YOU COULD WRITE
+
+// const spans = document.querySelectorAll('span');
+// for (let i = 0; i < spans.length; i++) {
+//   spans[i].style.color = colors[i];
+// }
+
+// CLASS SELECTION
+
+// const unitNavLinkSelector = document.querySelector('li');
+// unitNavLinkSelector.getAttribute('class');
+// unitNavLinkSelector.setAttribute('class', 'unitnavlink');
+
+const classListSelector = document.querySelectorAll('li')
+
