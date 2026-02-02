@@ -999,5 +999,15 @@
 // const lgGoal = document.getElementsByClassName('lg-goal')
 
 const inputSelector = document.querySelector('input')
-const anchorSelector = document.querySelector('a')
-const anchorSelector3 = document.querySelector('a:nth-of-type(3)')
+// const anchorSelector = document.querySelectorAll('a')
+// const anchorSelector3 = document.querySelector('a:nth-of-type(3)')
+// const pSelector = document.querySelector('p')
+// const aSelector = anchorSelector.innerText
+
+// document.querySelector('span').innerText = 'Disgusting';
+
+// const buttonSelector = document.querySelector('li')
+// buttonSelector.getAttribute('href')
+
+const imgSelector =document.querySelector('img');
+imgSelector.setAttribute(src, 'https://images.unsplash.com/photo-1581061090142-c2cd0ec9f021?w=200')
