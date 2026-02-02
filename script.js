@@ -4,3 +4,4 @@
 // }
 
 const checkBox = document.querySelectorAll('input')
+document.querySelector('checkBox').innerText = 'Shut Up Bevis'
