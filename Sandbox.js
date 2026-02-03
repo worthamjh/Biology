@@ -1052,5 +1052,20 @@
 // unitNavLinkSelector.getAttribute('class');
 // unitNavLinkSelector.setAttribute('class', 'unitnavlink');
 
-const classListSelector = document.querySelectorAll('li')
+// const classListSelector = document.querySelectorAll('li');
 
+// for (let li of classListSelector){
+//     li.classList.toggle('highlight')
+// };
+
+// CHILD ELEMENT SELECTION
+
+const unitNav22 = document.querySelector('li');
+
+unitNav22.parentElement
+
+const unitNavListConst = document.querySelector('.unitNavList');
+const unitNavListConstLinks = document.querySelector('.unitNavList'> '.unitNavLink');
+
+const lessonNavListConst = document.querySelectorAll('.lessonNavList');
+const lessonNavListConstLinks = lessonNavListConst.child;
