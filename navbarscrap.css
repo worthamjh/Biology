@@ -5,12 +5,12 @@ html{
 body{
     margin: 0;
 }
-.SiteMenu_navcontainer{
+.navContainer{
     background-color: black;
     color: white;
     position: relative;           /* so absolute h1 is positioned inside the container */
   display: flex;
-  justify-content: flex-end;        /* keep them at the bottom */
+  justify-content: flex-start;        /* keep them at the bottom */
   width: 100%;
   min-height: 300px;
   box-sizing: border-box;
@@ -19,22 +19,23 @@ body{
   flex-wrap: nowrap;   
   flex-direction: row;
 }
-.SiteMenu_title{
+.navTitleLink{
     color: white;
     text-decoration: none;
     font-size: 4rem;
     position: absolute;
 }
-.SiteMenu_unitcontainer li {
+.unitNavList {
     color: black;
     text-decoration: none;
+    list-style: none;
     max-height: fit-content;
   background-color: #f77f00;
   border-width: 1px;
   border-color: white;
   border-style: solid;
   font-size: 3.0rem;
-  flex: 1 1 0;                  /* each .div2 grows equally to fill the row */
+  flex: 1 1 0;                  /* each .unitNavList grows equally to fill the row */
   min-width: 0;                 /* prevents child overflow */
   padding: 0.5rem 0;
   text-align: center;
@@ -43,7 +44,7 @@ body{
   justify-content: center;
   box-sizing: border-box;
 }
-.SiteMenu_unitanchor{
+.unitNavLink{
     color: black;
     text-decoration: none;
     display: flex;
@@ -51,7 +52,13 @@ body{
     flex-direction: row;
     justify-content: center;
 }
-.SiteMenu_lessonlistitem{
+.lessonList{
+    color: black;
+    text-decoration: none;
+    background-color: #f77f00;
+    list-style: none;
+}
+.lessonListItem{
     color: black;
     text-decoration: none;
     background-color: #f77f00;

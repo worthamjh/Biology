@@ -5,7 +5,7 @@
     justify-content: center;
     background-color: black;
 } */
-.container{
+.navContainer{
   background-color: black;
   position: relative;           /* so absolute h1 is positioned inside the container */
   display: flex;
