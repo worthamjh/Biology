@@ -1060,19 +1060,27 @@
 
 // CHILD ELEMENT SELECTION
 
-const unitNav22 = document.querySelector('li');
+// const unitNav22 = document.querySelector('li');
 
-unitNav22.parentElement
+// unitNav22.parentElement
 
-const unitNavListConst = document.querySelector('.unitNavList');
-const unitNavListConstLinks = document.querySelector('.unitNavList'> '.unitNavLink');
+// const unitNavListConst = document.querySelector('.unitNavList');
+// const unitNavListConstLinks = document.querySelector('.unitNavList'> '.unitNavLink');
 
-const lessonNavListConst = document.querySelectorAll('.lessonNavList');
-const lessonNavListConstLinks = lessonNavListConst.child;
+// const lessonNavListConst = document.querySelectorAll('.lessonNavList');
+// const lessonNavListConstLinks = lessonNavListConst.child;
 
 
-const h2 = document.createElement('h2');
-h2.append('Weiners');
-const h1 = document.querySelector('fieldset');
+// const h2 = document.createElement('h2');
+// h2.append('Weiners');
+// const h1 = document.querySelector('fieldset');
 
-h1.insertAdjacentElement('beforeend','h2');
+// const container = document.querySelector('#container');
+
+// for (let i=0; i<100; i++){
+//     const buttons = document.createElement('button');
+//     buttons.innerText='Cock' + i;
+//     container.appendChild(buttons);
+// }
+
+
