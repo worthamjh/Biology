@@ -1,0 +1,23 @@
+// const links = document.querySelectorAll('li');
+// for (let link of links) {
+//     console.log(link);
+// }
+
+
+const unit1Assignments=[
+    {
+        title:"Exploartion 1-Systems and System Models",
+        link:"https://kami.app/AwT-kRs-jVR-sK3",
+        image:"https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Unit%201-Living%20Systems/1.1-Life%20in%20the%20Earth%20System/1.1.Ex1-Systems%20and%20System%20Models%20Image.PNG"
+    },
+    {
+        title:"Lab-Life Under a Microscope Student Handout",
+        link:"https://kami.app/VvC-kzj-kzv-Ndd",
+        image:"https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Unit%201-Living%20Systems/1.1-Life%20in%20the%20Earth%20System/1.1.L1-Life%20Under%20a%20Microscope%20Image.PNG"
+    },
+    {
+        title:"Exploration 2-The Earth System",
+        link:"https://kami.app/vAN-bvD-MJj-1r7",
+        image:"https://raw.githubusercontent.com/worthamjh/Biology/refs/heads/main/Unit%201-Living%20Systems/1.1-Life%20in%20the%20Earth%20System/1.1.Ex2-The%20Earth%20System%20Image.PNG"
+    }
+]
